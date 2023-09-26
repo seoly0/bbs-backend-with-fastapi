@@ -1,0 +1,43 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+pydantic = "*"
+aiosqlite = "*"
+email-validator = "*"
+bcrypt = "*"
+pyjwt = "*"
+python-multipart = "*"
+user-agents = "*"
+jinja2 = "*"
+html2text = "*"
+celery = "*"
+redis = "*"
+minio = "*"
+pycryptodome = "*"
+pytz = "*"
+lxml = "*"
+pyahocorasick = "*"
+requests = "*"
+asgi-correlation-id = "*"
+psycopg2-binary = "*"
+sqlalchemy = "==2.0.0rc2"
+psutil = "*"
+alembic = "*"
+sshtunnel = "*"
+pillow = "*"
+sqltap = "*"
+
+[dev-packages]
+pylint = "*"
+black = "*"
+
+[requires]
+python_version = "3.11"
+
+[pipenv]
+allow_prereleases = true

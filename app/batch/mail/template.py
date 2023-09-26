@@ -1,0 +1,3 @@
+CERT_JOIN = {
+    'title': ''
+}

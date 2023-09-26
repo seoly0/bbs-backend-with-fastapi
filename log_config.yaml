@@ -1,0 +1,30 @@
+version: 1
+disable_existing_loggers: false
+
+# formatters:
+#   default:
+#     format: '[%(levelname)s] :: %(asctime)s :: %(name)s > %(message)s'
+#     datefmt: "%Y-%m-%d %H:%M:%S"
+
+# handlers:
+#   console:
+#     class: logging.StreamHandler
+#     formatter: default
+#     stream: ext://sys.stdout
+
+loggers:
+  uvicorn:
+    propagate: no
+
+  # watchfiles:
+  #   propagate: no
+
+  # sqlalchemy.engine:
+  #   level: INFO
+
+# root:
+#   level: DEBUG
+#   handlers: [console]
+#   propagate: no
+
+#  --log-config log_config.yaml
